@@ -1,0 +1,85 @@
+object {
+    width: 100vw;
+    height: calc(100vh - 90px)
+}
+#appdata {
+    width: 100vw;
+    height: calc(100vh - 90px)
+}
+#appdata2 {
+    width: 100vw;
+    height: calc(100vh - 90px)
+}
+
+
+/* ********************************* 
+               BANNER 
+ ********************************* */
+ .banner {
+    height: 50%;
+    background-image: linear-gradient(to right, #333 , rgb(51, 53, 71));
+}
+
+.banner__img{
+    background-image: url("../img/jf-bn.png");
+    background-size: 450px;
+    background-repeat: no-repeat;
+    height: 100%; 
+    background-position: left top;
+    filter: contrast(150%);
+    overflow: visible;
+    display: flex;
+}
+
+
+.banner__texto {
+    color: #fff;;
+    font-size: 2em;
+    padding: 20px;
+    margin-top: auto;
+    margin-left: auto;
+    text-shadow: 3px 3px 5px #000, 2px 2px 5px #000, 2px 2px 5px #000, 2px 2px 5px #000;
+}
+/* ********************************* 
+               BOTONERA 
+ ********************************* */
+
+.botonera {
+    width: 100%;
+    /* height: calc(50vh - 120px); */
+    height: 50%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+
+}
+
+#botonera__sobremi {
+    background-image: url("../img/about.png");
+}
+#botonera__educacion {
+    background-image: url("../img/edu.png");
+}
+#botonera__proyectos {
+    background-image: url("../img/proyectos.png");
+}
+#botonera__contacto {
+    background-image: url("../img/contact.png");
+}
+.botonera__imagen {
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.botonera__imagen:hover {
+    filter: drop-shadow(10px 10px 5px #000);
+}
+
+a {
+    background:aqua;
+}
+
+img {
+    height: 50%;
+}
