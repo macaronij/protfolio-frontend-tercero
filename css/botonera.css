@@ -1,22 +1,8 @@
-object {
-    width: 100vw;
-    height: calc(100vh - 90px)
-}
-#appdata {
-    width: 100vw;
-    height: calc(100vh - 90px)
-}
-#appdata2 {
-    width: 100vw;
-    height: calc(100vh - 90px)
-}
-
-
 /* ********************************* 
                BANNER 
  ********************************* */
  .banner {
-    height: 50%;
+    height: 50vh;
     background-image: linear-gradient(to right, #333 , rgb(51, 53, 71));
 }
 
@@ -46,8 +32,8 @@ object {
 
 .botonera {
     width: 100%;
-    /* height: calc(50vh - 120px); */
-    height: 50%;
+    height: calc(50vh - 120px);
+    /* height: 50vh; */
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;

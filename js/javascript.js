@@ -1,8 +1,6 @@
 const footer__botonera = document.getElementById("footer__botonera");
 footer__botonera.addEventListener("click", ()=> {
-    let appdata = document.getElementById("appdata");
-    appdata.innerHTML = `<object type="text/html" data="botonera.html"></object>
-    <script src="js/botonera.js"></script>`
+    location.reload()
 })
 
 const footer__proyectos = document.getElementById("footer__proyectos");

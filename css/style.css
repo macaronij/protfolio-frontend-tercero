@@ -16,14 +16,7 @@ object {
     width: 100vw;
     height: calc(100vh - 90px)
 }
-#appdata {
-    width: 100vw;
-    height: calc(100vh - 90px)
-}
-#appdata2 {
-    width: 100vw;
-    height: calc(100vh - 90px)
-}
+
 /* ********************************* 
                 NAV 
  ********************************* */
