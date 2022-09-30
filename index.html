@@ -11,6 +11,7 @@
 <body>
 
     <nav>
+        <div class="nav__home"></div>
         <div class="nav__nombre">Juan Francisco Alvero</div> 
         <div class="nav__logo"><img class="nav__pacman" src="img/pacman-solo.png" alt="pacman"></div>
         <div class="nav__loguin">Login</div>
@@ -29,22 +30,31 @@
         </div>
     
         <div class="flex-container">
-                <div class="botonera">
-                <div class="botonera__imagen" id="botonera__sobremi"></div>
-                <div class="botonera__imagen" id="botonera__educacion"></div>
-                <div class="botonera__imagen" id="botonera__proyectos"></div>
-                <div class="botonera__imagen" id="botonera__contacto"></div>
+            <div class="botonera">
+                <div class="botonera__boton" id="botonera__sobremi_link">
+                    <div class="botonera__img" id="botonera__sobremi"></div>
+                    <span class="botonera__texto"> <span>Sobre mi</span> </span>
+                    <span class="botonera__signo"> <span> > </span> </span>
+                </div>
+                <div class="botonera__boton" id="botonera__educacion_link">
+                    <div class="botonera__img" id="botonera__educacion"></div>
+                    <span class="botonera__texto"><span>Educacion</span></span>
+                    <span class="botonera__signo"><span> > </span> </span>
+                </div>
+                <div class="botonera__boton" id="botonera__proyectos_link">
+                    <div class="botonera__img" id="botonera__proyectos"></div>
+                    <span class="botonera__texto"><span>Proyectos</span></span>
+                    <span class="botonera__signo"><span> > </span> </span>
+                </div>
+                <div class="botonera__boton" id="botonera__contacto_link">
+                    <div class="botonera__img" id="botonera__contacto"></div>
+                    <span class="botonera__texto"><span>Contacto</span></span>
+                    <span class="botonera__signo"><span> > </span> </span>
+                </div>
             </div>
         </div>
-        <script src="js/botonera.js"></script>
     </div>
-    
-    <footer>
-        <div class="footer__boton" id="footer__proyectos"> </div>
-        <div class="footer__boton" id="footer__botonera">  </div>
-        <div class="footer__boton" id="footer__contacto">  </div>
-    </footer>
-    
+
     <script src="js/javascript.js"></script>
 </body>
 </html>

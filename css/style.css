@@ -27,7 +27,21 @@ nav {
     display: flex;
     color: #fff;
 }
-
+.nav__home {
+    width: 60px;
+    background-image: url("../img/home.png");
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.nav__home:hover{
+    background-color: #444;
+}
+.nav__nombre {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+}
 .nav__logo {
     height: 100%;
     flex-grow: 1;
@@ -63,11 +77,7 @@ nav {
     
 }
 
-.nav__nombre {
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 20px;
-}
+
 
 .nav__loguin {
 margin: auto;
@@ -82,62 +92,4 @@ border-radius: 20%;;
     background-color: rgb(13, 48, 13);
     color: #ddd;
     border: 1px solid #ddd
-}
-
-
-/* ********************************* 
-                FOOTER 
- ********************************* */
-
- footer {
-    background-color: rgba(0, 0, 0, 0.9);
-    color: #fff;
-    position: fixed;
-    bottom: 0px;
-    height: 50px;
-    width: 100vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.footer__a {
-    display: flex;
-    text-decoration: none;
-}
-
-.footer__a:visited {
-    color: #fff;
-}
-.footer__a:link {
-    color: #fff;
-}
-
-.footer__boton {
-    margin: auto;
-    border: 1px solid #fff;
-    background-color: rgb(17, 17, 17);
-    padding: 10px;
-    width: 120px;
-    text-align: center;
-    height: 45px;
-}
-
-.footer__boton:hover{
-    background-color: #333;
-}
-.footer__boton {
-
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-#footer__proyectos {
-    background-image: url("../img/proyectos.png");
-}
-#footer__botonera {
-    background-image: url("../img/home.png");
-}
-#footer__contacto {
-    background-image: url("../img/gmail.png");
 }
