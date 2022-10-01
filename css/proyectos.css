@@ -28,6 +28,7 @@
 
 .recuadro__item {
     display: flex;
+    flex-wrap: wrap;
     margin: 5px;
     border-top: 1px solid rgb(255, 255, 255);
     background-color: #333;
@@ -35,8 +36,8 @@
 
 .recuadro__item-img {
     display: block;
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 280px;
     margin-left: 0px;
     margin-top: 10px;
 }

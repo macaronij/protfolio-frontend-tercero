@@ -17,6 +17,16 @@ object {
     height: calc(100vh - 90px)
 }
 
+/* BOTONES QUE NO QUIERO QUE SE PUEDA ELEGIR EL TEXTO  */
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 /* ********************************* 
                 NAV 
  ********************************* */
@@ -33,6 +43,7 @@ nav {
     background-size: 30px;
     background-position: center;
     background-repeat: no-repeat;
+    cursor: pointer;
 }
 .nav__home:hover{
     background-color: #444;
